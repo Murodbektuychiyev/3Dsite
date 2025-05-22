@@ -1,40 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MCode</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <style>
-        /* Basic styles for footer */
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        footer {
-            background-color: rgba(0, 0, 0, 0.3);
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 0.9rem;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer a {
-            color: #ffd700;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="icon" type="image/png" href="MCodelogo.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <img class="image-gradient" src="gradient.png" alt="Gradient image">
+    <img class="image-gradient" src="gradient.png" alt="Gradient image" />
     <div class="layer-blur"></div>
 
     <div class="container">
@@ -49,27 +24,66 @@
             </nav>
 
             <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGN IN</button>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </header>
 
         <main>
             <div class="content">
-                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+                <div
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-offset="0"
+                    data-aos-duration="1500"
+                    class="tag-box"
+                >
                     <div class="tag">INTRODUCING &wedbar;</div>
                 </div>
 
-                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0" data-aos-duration="2000">E-MAIL FOR<br>DEVELOPERS</h1>
+                <h1
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-offset="0"
+                    data-aos-duration="2000"
+                >
+                    E-MAIL FOR<br />
+                    DEVELOPERS
+                </h1>
 
-                <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0" data-aos-duration="2500" class="description">
+                <p
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-offset="0"
+                    data-aos-duration="2500"
+                    class="description"
+                >
                     The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.
                 </p>
 
-                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0" data-aos-duration="3000" class="buttons">
+                <div
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-offset="0"
+                    data-aos-duration="3000"
+                    class="buttons"
+                >
                     <a href="#" class="btn-get-started">Documentation &gt;</a>
                     <a href="#" class="btn-signing-main">Get started &gt;</a>
                 </div>
             </div>
 
-            <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0" data-aos-duration="3000" class="robot-3d" url="https://prod.spline.design/1dcxapFMBHoCIfHs/scene.splinecode"></spline-viewer>
+            <spline-viewer
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+                data-aos-duration="3000"
+                class="robot-3d"
+                url="https://prod.spline.design/1dcxapFMBHoCIfHs/scene.splinecode"
+            ></spline-viewer>
         </main>
     </div>
 
@@ -81,6 +95,7 @@
     <!-- Scripts -->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.72/build/spline-viewer.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
     <script>
         // AOS initialization
         AOS.init();
